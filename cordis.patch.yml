@@ -1,0 +1,5 @@
+# dsh.bundle patch for dsh-session-landing: inserts its plugin row into the profile roster.
+# Applied as a profile bundle layer via package.json dsh.bundle.patch.
+- insert:
+    - id: session-landing
+      name: 'dsh-session-landing'
